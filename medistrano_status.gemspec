@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = MedistranoStatus::VERSION
   gem.authors       = ["Will Duty"]
   gem.email         = ["wduty@mdsol.com"]
-  gem.description   = %q{gem description}
-  gem.summary       = %q{gem summary}
+  gem.description   = %q{rack middleware. intercepts calls (usually from Medistrano) to AppStatus/show, returns 200/OK http header and content "OK"}
+  gem.summary       = %q{rack middleware}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($/)

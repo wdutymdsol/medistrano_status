@@ -14,7 +14,7 @@ module MedistranoStatus
                'Content-Type' => 'text/plain; charset=UTF-8',
                'Cache-Control' => 'no-cache'
            },
-           ["OK (from the gem)"]
+           ["OK"]
           ]
         else
           @app.call(env)
@@ -23,4 +23,3 @@ module MedistranoStatus
     end
   end
 end
-
